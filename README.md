@@ -1,5 +1,5 @@
-# Name: Indhu Priya.T
-# Reg.No: 24007533
+# Name: Iniya.E
+# Reg.No: 24900540
 # Experiment-5: Monitoring soil moisture value in Thing speak cloud
 # Uploading soil moisture sensor data in Thing Speak cloud
 
@@ -90,14 +90,14 @@ Prototype and build IoT systems without setting up servers or developing web sof
 #include <WiFi.h>
 #include "ThingSpeak.h" // always include thingspeak header file after other header files and custom macros
 #define Soil_Moisture 34
-char ssid[] = "Yo-Yo";   // your network SSID (name) 
-char pass[] = "pizza1010";   // your network password
+char ssid[] = "Galaxy A14 5G 9AB3";   // your network SSID (name) 
+char pass[] = "0987654321";   // your network password
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 WiFiClient  client;
 
-unsigned long myChannelNumber = 2794293;
+unsigned long myChannelNumber = 2785407;
 const int ChannelField = 1; 
-const char * myWriteAPIKey = "4TFOEBVX1FSO0WMX";
+const char * myWriteAPIKey = "S57YJQPWGYSOFWAJ";
 
 const int airValue = 4095;      // Analog value when the sensor is in dry air
 const int waterValue = 0;
